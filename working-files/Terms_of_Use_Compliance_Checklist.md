@@ -35,3 +35,47 @@ The ToU names a Designated DMCA Agent at TLTL (Teachers College, Columbia Univer
 - [ ] Register the Designated DMCA Agent with the US Copyright Office DMCA Designated Agent Directory (https://dmca.copyright.gov/). $6 filing fee; registration is valid for 3 years and must be renewed. Register Paulo Blikstein by name, with the title "Designated DMCA Agent" and the TLTL contact details.
 - [ ] Establish an internal procedure for receiving, reviewing, and acting on DMCA takedown notices and counter-notices, including a log of notices received and actions taken.
 
+### B5. Content removal and account-suspension capability (§6, §7, §17)
+The ToU states we may remove content that violates the Terms (including images, project files, and other user-uploaded materials) and may suspend or terminate accounts. These capabilities must actually be available to operators.
+
+- [ ] Operator tool or documented manual procedure for removing user-uploaded content (projects, images, display media, Classroom materials).
+- [ ] Operator tool or documented manual procedure for suspending and terminating accounts.
+- [ ] Internal process for reviewing reports of prohibited content or conduct, including who decides, how decisions are recorded, and how affected users are notified.
+
+### B6. Terms of Use update notification (§13)
+The ToU commits us to communicating material changes through the service or by email where appropriate.
+
+- [ ] Mechanism for displaying an in-service notice when the ToU changes.
+- [ ] Mechanism (or confirmation of existing email capability) to notify registered users about material changes.
+- [ ] Maintained version history or changelog of the ToU, with the updated effective date shown on each revision.
+
+### B7. Hardware safety instructions (§9)
+The ToU states that users must follow safety instructions provided with the hardware and curriculum materials. Those instructions must actually exist and be current.
+
+- [ ] Confirm that printed or packaged safety instructions ship with (or are readily available for) the GoGo Board hardware.
+- [ ] Confirm that online or in-Classroom safety instructions are accessible as part of curriculum materials.
+- [ ] Ensure instructions remain current as hardware revisions occur.
+
+---
+
+## Ongoing operational awareness
+
+(These are not pre-publication blockers, but are commitments made by the ToU that shape how we operate going forward.)
+
+### O1. Research ethics compliance (§7)
+The ToU permits analysis of user-project content in aggregated or anonymized form for research into educational technology. Performing actual research on user content requires institutional ethics approvals.
+
+- Obtain IRB approval from Teachers College (Columbia University) and/or ethics approval from Chiang Mai University before conducting research that uses user-project content.
+- Maintain a log of approved research uses and the institutional approvals on file.
+
+### O2. Retroactive Classroom CC BY consent (§7)
+The ToU establishes that educator-created Classroom materials are published under CC BY, with acceptance occurring when educators accept the Terms. Educators who created Classroom lessons before the ToU publication date have not yet agreed to this license.
+
+- Before the ToU takes effect, decide how to handle existing Classroom content: (a) require re-acceptance of the Terms on next login, (b) notify existing educators individually, or (c) confirm that any prior Classroom terms are compatible.
+
+---
+
+## See also
+
+Items related to account deletion, data export, correction, and user-data handling are covered in [Privacy_Policy_Compliance_Checklist.md](Privacy_Policy_Compliance_Checklist.md). The ToU §17 ("You may request deletion of your account as described in the Privacy Policy") and §7 (removal of content) rely on those capabilities being in place.
+

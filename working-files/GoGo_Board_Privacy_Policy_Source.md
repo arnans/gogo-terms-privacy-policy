@@ -3,7 +3,7 @@
 **Status:** Working source document — used to draft the public-facing privacy policy
 **Version:** 1.0-draft1
 **Effective date:** Pending
-**Last reviewed:** 2026-04-14
+**Last reviewed:** 2026-04-15
 
 ---
 
@@ -40,14 +40,14 @@
 
 ## 4. Account & Identity Data Collected
 
-- Required account data: email address, user role (student/teacher/admin). Accounts are created via third-party identity providers (Google or Microsoft); we do not store passwords or operate our own credential system.
-- Optional profile data: No other optional profile fields
+- Required account data: email address, user name (as provided by the identity provider), and user role (student/teacher/admin). Accounts are created via third-party identity providers (Google or Microsoft); we do not store passwords or operate our own credential system.
+- Optional profile data: None.
 
 ---
 
 ## 5. Learning & Classroom Data
 
-- Types of learning data stored: Source code/block programs, sensor readings and logs (which may be transmitted from the board through the web app or sent directly from the board to our data-logging server when user code enables this), project files, submission timestamps, student notes, teacher feedback, scores received
+- Types of learning data stored: Source code/block programs, sensor readings and logs (which may be transmitted from the board through the web app or sent directly from the board to our data-logging server when user code enables this), project files, submission timestamps, student notes, teacher feedback, scores received, and Classroom lesson progress and completion records
 - Visibility (student / teacher / admin / staff): Student, teacher, and administrator
 
 ---
@@ -55,7 +55,7 @@
 ## 6. Device & Hardware Data (GoGo Board)
 
 - Data collected from devices: Board identifier, firmware version, connection status, sensor readings, board state
-- Notes / limitations: The GoGo Board connects to user devices via USB or Wi-Fi. When connected to the GoGo web app, the board acts as a peripheral and data flows through the user's browser session. In addition, user-written programs may instruct the board to send or receive data over the internet autonomously — either to a data-logging server we operate, or to third-party servers and devices specified by the user's code. Autonomous data transmission only occurs when explicitly enabled by user code.
+- Notes / limitations: The GoGo Board connects to user devices via USB or Wi-Fi. When connected to the GoGo web app, the board acts as a peripheral and data flows through the user's browser session. Where user-written programs cause the board to transmit data autonomously (e.g., to a logging or messaging service), see §11 for the data-sharing details.
 
 ---
 
@@ -103,15 +103,17 @@
 
 ## 11. Data Sharing
 
-- Who data is shared with: Identity providers (Google, Microsoft) for authentication, hosting/infrastructure providers, and analytics services. Note: we also operate our own data-logging server that receives data sent directly from GoGo Boards when user-written programs enable this — this is our own infrastructure, not a third party.
-- Service providers: Amazon Web Services (AWS), Google (Sign-In and Analytics), Microsoft (Sign-In), and our self-hosted platform analytics.
+- Third-party service providers: identity providers (Google, Microsoft) for authentication, hosting and infrastructure (Amazon Web Services), and analytics services (Google Analytics). We also use our own self-hosted platform analytics.
+- Our own infrastructure: a data-logging server that receives and stores sensor data sent directly from GoGo Boards, and a messaging service that relays messages between GoGo Boards in real time without storing them. Both services are operated by us, not by third parties.
+- User-specified third parties: when user-written programs instruct the board to connect to other servers, devices, or messaging services, data flows to those endpoints as well. Those destinations are not operated or controlled by us (see §17).
+- Autonomous transmission: the board sends or receives data autonomously only when explicitly enabled by user code.
 
 ---
 
 ## 12. International Data Storage & Transfer
 
 - Hosting country: The GoGo Board platform is currently hosted in the Asia Pacific (Singapore) AWS region. Some operational data (e.g., analytics, error reports) may be processed by service providers based in other countries.
-- Cross-border transfer safeguards: Where personal data is transferred outside Thailand, we rely on the AWS Data Processing Addendum, which incorporates Standard Contractual Clauses recognized as appropriate safeguards under Thailand's PDPA (Section 28) and equivalent frameworks. For analytics services (Google Analytics), we rely on the corresponding processor agreement.
+- Cross-border transfer safeguards: Where personal data is transferred outside Thailand, we rely on the data-processing terms in the AWS Service Terms, which automatically incorporate the European Commission's Standard Contractual Clauses. These are recognized as appropriate safeguards under Thailand's PDPA (Section 28) and equivalent frameworks. For analytics services (Google Analytics), we rely on the corresponding processor agreement.
 - Future expansion: We may add additional AWS regions in the future (e.g., for users in the Americas). Material changes to hosting locations will be reflected in this policy under §18.
 
 ---
@@ -141,8 +143,7 @@
 
 ## 16. Cookies & Tracking
 
-- Cookie usage: Essential cookies (session/authentication) and analytics cookies (used by both Google Analytics and our self-hosted platform analytics).
-- Analytics / ads (Y/N): Analytics: Yes — Google Analytics and our self-hosted platform analytics; Advertising: No.
+- Cookie usage: Essential cookies (session/authentication) and analytics cookies (used by both Google Analytics and our self-hosted platform analytics). We do not use advertising cookies.
 - Cookie consent: On first visit, users are shown a cookie consent banner (pop-up) that allows them to accept or decline non-essential cookies (analytics). Essential cookies required for authentication and session management are always used. Users can change their cookie preferences at any time via a link in the site footer.
 
 ---
@@ -152,14 +153,15 @@
 - Identity providers: Google and Microsoft — used for user authentication. Logging in routes the user through the provider's authentication flow; the provider's own privacy policy governs that interaction.
 - Analytics: Google Analytics — see §11 and §16.
 - Hosting: Amazon Web Services (AWS) — see §11.
-- User-initiated integrations: User-written programs running on the GoGo Board may connect to third-party servers, devices, or MQTT brokers specified by the user. These connections are made under the user's own control and are not operated by us. We are not responsible for the privacy practices of any third-party service that a user chooses to connect to.
+- User-initiated integrations: User-written programs running on the GoGo Board may connect to third-party servers, devices, or messaging services specified by the user. These connections are made under the user's own control and are not operated by us. We are not responsible for the privacy practices of any third-party service that a user chooses to connect to.
+- Embedded video: Some Classroom lessons include videos embedded from third-party platforms such as YouTube. Embedded video players may set cookies or collect browser data (e.g., IP address, user agent) under the video platform's own privacy practices, even before a user interacts with the video. The video platform's privacy policy governs that data; we do not control or receive it.
 - Outbound hyperlinks: Documentation and learning materials may link to external resources (e.g., reference documentation, tutorials). We are not responsible for the content or privacy practices of external sites.
 
 ---
 
 ## 18. Policy Updates
 
-- Acceptance: By signing in to the GoGo Board platform, users acknowledge and agree to this Privacy Policy. The login page displays a clear notice to this effect with a link to the current policy.
+- Acceptance: By signing in to the GoGo Board platform, users acknowledge and agree to this Privacy Policy, together with the GoGo Board Terms of Use (available at https://www.gogoboard.org/terms). The login page displays a clear notice to this effect with a link to the current policy.
 - Notification of changes: Updates to the Privacy Policy are posted on the website with an updated effective date. A version history is maintained so users can review what has changed. Where a change materially affects how user data is handled, we will make reasonable efforts to notify users in-app.
 
 ---
@@ -177,7 +179,7 @@
 
 ## 20. Student Privacy Commitments (US Schools)
 
-For students using the GoGo Board through a US school or institution, we make the following commitments in line with US federal and state student-privacy laws (including FERPA, COPPA, California SOPIPA, New York Education Law §2-d, and Illinois SOPPA):
+For students using the GoGo Board through a US school or institution, we make the following commitments in line with US federal and state student-privacy laws (including FERPA, COPPA, California SOPIPA, New York Education Law §2-d, and Illinois SOPPA). These commitments apply to student personal information and to educational records (such as Classroom lesson progress, scores, student notes, and teacher feedback):
 
 - We do not sell student personal information.
 - We do not use student personal information for targeted advertising.

@@ -35,11 +35,17 @@ The policy describes a consent banner with an option to decline analytics cookie
 - [ ] Analytics cookies (Google Analytics + self-hosted) do not load until consented.
 - [ ] Footer link to change cookie preferences later.
 
-### B4. AWS DPA acceptance (§12)
-The policy cites the AWS DPA + SCCs as the cross-border safeguard. It must be signed.
+### B4. AWS Service Terms snapshot (§12)
+AWS no longer offers a separately-accepted Data Processing Addendum. Data-processing terms and the EU Standard Contractual Clauses are incorporated directly into the AWS Service Terms and apply automatically to every AWS customer — no acceptance step exists. For audit and change-tracking purposes, we still want a record of the terms we are relying on.
 
-- [ ] AWS Data Processing Addendum accepted via AWS Artifact (instructions sent to team).
-- [ ] Screenshot of "Accepted" status archived.
+**Relevant section:** AWS Service Terms **§1.14 "Data Protection"** is the authoritative clause. Within it:
+- §1.14.1 — references the DPA terms for processing Customer Data
+- §1.14.3 — Standard Contractual Clauses (Controller-to-Processor and Processor-to-Processor) for cross-border transfers
+- §1.14.4 — UK GDPR Addendum and Swiss Addendum
+
+- [ ] Archive a dated copy (PDF or printout) of the current AWS Service Terms — https://aws.amazon.com/service-terms/ — with particular attention to §1.14.
+- [ ] Archive dated copies of the SCCs PDFs and the Supplementary Addendum that §1.14 links to.
+- [ ] When Thai counsel or auditors ask what we rely on for cross-border transfer, point them to §1.14 of the archived Service Terms.
 
 ### B5. DPO contact channel (§19)
 The policy lists `dpo@gogoboard.org`. It must be reachable.
@@ -70,11 +76,16 @@ Promised but not urgent if no school is actively asking for them yet.
 - [ ] Bulk deletion / offboarding — delete all student data when a school leaves.
 - [ ] Consent-confirmation record at school onboarding.
 
-### P2. Board / MQTT logging server documentation (§5, §6, §11)
-- [ ] Written inventory of the GoGo MQTT / logging server — what data, retention, access.
-- [ ] Retention policy for logged sensor data (e.g., delete logs older than X months unless attached to an active project).
-- [ ] User-visible indicator in the web app when a program is actively transmitting to the logging server.
-- [ ] User-facing docs explaining when MQTT/logging is active and how to avoid using it.
+### P2. Board messaging and data-logging server documentation (§5, §6, §11)
+GoGo operates two separate board-facing services that need to be documented:
+
+- **Data-logging server** — receives and *stores* sensor data sent directly from boards when user code enables it.
+- **Messaging service** — relays messages between boards in real time and does *not* store them.
+
+- [ ] Written inventory of both services — what data flows through each, access controls, and (for the data-logging server) retention.
+- [ ] Retention policy for logged sensor data on the data-logging server (e.g., delete logs older than X months unless attached to an active project). Not applicable to the messaging service, which does not store messages.
+- [ ] User-visible indicator in the web app when a program is actively transmitting to either the messaging or the data-logging service.
+- [ ] User-facing docs explaining when messaging/logging is active and how to avoid using it.
 
 ### P3. Analytics configuration (§16)
 - [ ] Google Analytics: confirm IP anonymization on, ad personalization off, data sharing appropriate for minors.

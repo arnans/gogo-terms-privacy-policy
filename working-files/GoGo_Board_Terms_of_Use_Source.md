@@ -13,8 +13,7 @@ This is a working source document, not the public Terms of Use. Before generatin
 
 - [ ] Convert bullet + label format to prose paragraphs (keep bullet *lists* where natural — e.g., §6 prohibited activities)
 - [ ] Remove all italic editorial notes formatted as `*( ... )*`
-- [ ] Resolve every `**TODO:**` marker in the body (cross-check against §23)
-- [ ] Remove the §23 Open Questions section once everything is resolved
+- [ ] Resolve every `**TODO:**` marker in the body (remaining operational items are tracked in Terms_of_Use_Compliance_Checklist.md)
 - [ ] Update the Version field (`1.0-draft1` → `1.0`) and set a real Effective date
 - [ ] Remove this entire "Pre-publication checklist" section
 
@@ -57,8 +56,7 @@ This is a working source document, not the public Terms of Use. Before generatin
 ## 5. Accounts & Access
 
 - How accounts are created: Accounts are created through third-party identity providers (Google or Microsoft). We do not operate our own password system.
-- Account holder responsibilities: You are responsible for maintaining the security of the underlying identity-provider account used to sign in, and for all activity that occurs under your GoGo Board account.
-- Account use: Accounts are intended for a single user. You may not share your credentials or allow another person to use your account, and you are responsible for all activity conducted through your account, except to the extent caused by unauthorized access that you have promptly reported to us.
+- Account responsibility: You are responsible for maintaining the security of the underlying identity-provider account used to sign in. Your GoGo Board account is intended for a single user; you may not share your credentials or allow another person to use it. You are responsible for all activity conducted through your account, except to the extent caused by unauthorized access that you have promptly reported to us.
 - Contact info: You are responsible for keeping the email address associated with your account accurate so you can receive service notices.
 
 ---
@@ -144,8 +142,7 @@ This is a working source document, not the public Terms of Use. Before generatin
 ## 13. Service Availability & Modifications
 
 - Availability: The service is provided on an "as available" basis. We do not guarantee uninterrupted or error-free operation, or commit to any specific level of availability, performance, or response time.
-- Feature changes: We may add, change, suspend, or discontinue any feature of the platform at any time, with or without notice.
-- Notice of changes: Where reasonably feasible, we will provide advance notice of material changes that significantly affect users.
+- Feature changes and notice: We may add, change, suspend, or discontinue any feature of the platform at any time, with or without notice. Where reasonably feasible, we will provide advance notice of material changes that significantly affect users.
 - Changes to these Terms: We may update these Terms from time to time. Updated Terms will be posted on the platform with an updated effective date. Material changes will be communicated through the service or by email where appropriate.
 - Effective date: Changes take effect on the date posted. Your continued use of the platform after the effective date constitutes acceptance of the updated Terms.
 
@@ -231,9 +228,3 @@ This is a working source document, not the public Terms of Use. Before generatin
 - Public contact email: support@gogoboard.org
 - Organization reference: See §3 for operating entities; full addresses are in the Privacy Policy.
 
----
-
-## 23. Open Questions / To Be Confirmed
-
-- §10 — Attribution page URL (operational: needs to exist before publication — tracked in Terms_of_Use_Compliance_Checklist.md)
-- §18 — DMCA agent phone number (ask Paulo); tracked in Terms_of_Use_Compliance_Checklist.md
