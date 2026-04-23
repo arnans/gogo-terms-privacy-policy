@@ -1,7 +1,7 @@
 # Tasks for Paulo — GoGo Board Terms of Use Setup
 
 **Subject:** Operational tasks needed from the TLTL / Columbia side to finalize the GoGo Board Terms of Use
-**Last updated:** 2026-04-15
+**Last updated:** 2026-04-23
 
 ---
 
@@ -13,20 +13,16 @@ All of these are one-time setup tasks.
 
 ---
 
-## 1. Provide a phone number for the DMCA Designated Agent
+## 1. Provide a phone number for the DMCA Designated Agent — ✅ Done
 
-**What:** A direct phone number that can be published in the ToU and registered with the US Copyright Office.
+**Status:** Phone number received: **+1 (847) 571-4538**. Now filled into ToU §18 in both the draft and source files.
 
-**Why:** US copyright law (DMCA, 17 USC §512) requires online platforms to designate an agent to receive copyright infringement notices. To qualify for the "safe harbor" protection against third-party claims, the agent's name, address, email, **and phone** must be:
+**Why this was needed:** US copyright law (DMCA, 17 USC §512) requires online platforms to designate an agent to receive copyright infringement notices. To qualify for the "safe harbor" protection against third-party claims, the agent's name, address, email, **and phone** must be:
 
 - Listed in our public Terms of Use
 - Registered with the US Copyright Office's DMCA Designated Agent Directory
 
-Without this, the safe harbor doesn't apply, and the platform remains liable for any copyrighted material a user uploads.
-
-**How:** Send us a phone number you're comfortable publishing. Your TLTL office line, a general TLTL number, or any reachable line works.
-
-**Urgency:** Needed before we publish the ToU.
+This number will also be used in Task 3 (Copyright Office registration).
 
 ---
 
@@ -57,7 +53,7 @@ Without this, the safe harbor doesn't apply, and the platform remains liable for
 | Designated Agent full name | Dr. Paulo Blikstein |
 | Title | Designated DMCA Agent |
 | Address | Transformative Learning Technologies Lab (TLTL), Department of Mathematics, Science & Technology, Teachers College, Columbia University, 525 West 120th Street, New York, NY 10027, USA |
-| Phone | (the number from item 1) |
+| Phone | +1 (847) 571-4538 |
 | Email | dmca@gogoboard.org |
 
 4. Pay the $6 filing fee.

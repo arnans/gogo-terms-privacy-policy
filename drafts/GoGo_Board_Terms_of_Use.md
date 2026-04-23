@@ -196,7 +196,7 @@ We respect the intellectual property rights of others and expect users to do the
 
 - Email: dmca@gogoboard.org
 - Postal mail: Designated DMCA Agent, Transformative Learning Technologies Lab (TLTL), Department of Mathematics, Science & Technology, Teachers College, Columbia University, 525 West 120th Street, New York, NY 10027, USA
-- Phone: [to be added before publication]
+- Phone: +1 (847) 571-4538
 
 **Counter-notice.** If your content has been removed under this procedure and you believe the removal was mistaken, you may submit a written counter-notice to our Designated DMCA Agent that includes: (a) your physical or electronic signature; (b) identification of the material that was removed and the location where it appeared before removal; (c) a statement under penalty of perjury that you have a good-faith belief that the material was removed as a result of mistake or misidentification; (d) your name, address, and telephone number; and (e) a statement that you consent to the jurisdiction of the federal district court where your address is located (or, if your address is outside the United States, the Southern District of New York), and that you will accept service of process from the complaining party or its agent.
 
